@@ -1,17 +1,21 @@
 # [UI UX Pro Max](https://uupm.cc)
 
 <p align="center">
+  <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.az.md">🇦🇿 Azərbaycanca</a> |
   <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.id.md">🇮🇩 Bahasa Indonesia</a> |
+  <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.ja.md">🇯🇵 日本語</a> |
   <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.ko.md">🇰🇷 한국어</a> |
   <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.vi.md">🇻🇳 Tiếng Việt</a> |
   <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.zh.md">🇨🇳 简体中文</a> |
-  <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md">🇺🇸 English</a>
+  <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md">🇺🇸 English</a> |
+  <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.fr.md">🇫🇷 Français</a> |
+  <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.fa.md">🇮🇷 فارسی</a>
 </p>
 
 <p align="center">
   <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases"><img src="https://img.shields.io/github/v/release/nextlevelbuilder/ui-ux-pro-max-skill?style=for-the-badge&color=blue" alt="GitHub Release"></a>
-  <img src="https://img.shields.io/badge/reasoning_rules-192-green?style=for-the-badge" alt="192 Reasoning Rules">
-  <img src="https://img.shields.io/badge/UI_styles-79_searchable-purple?style=for-the-badge" alt="79 searchable UI styles">
+  <img src="https://img.shields.io/badge/reasoning_rules-194-green?style=for-the-badge" alt="194 Reasoning Rules">
+  <img src="https://img.shields.io/badge/UI_styles-80_searchable-purple?style=for-the-badge" alt="80 searchable UI styles">
   <img src="https://img.shields.io/badge/python-3.x-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x">
   <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/LICENSE"><img src="https://img.shields.io/github/license/nextlevelbuilder/ui-ux-pro-max-skill?style=for-the-badge&color=green" alt="License"></a>
 </p>
@@ -139,9 +143,9 @@ The flagship feature of v2.0 is the **Design System Generator** - an AI-powered 
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │  2. MULTI-DOMAIN SEARCH (5 parallel searches)                   │
-│     • Product type matching (192 categories)                    │
-│     • Style recommendations (79 searchable; 50 active)          │
-│     • Color palette selection (192 palettes)                    │
+│     • Product type matching (194 categories)                    │
+│     • Style recommendations (80 searchable; 51 active)          │
+│     • Color palette selection (194 palettes)                    │
 │     • Landing page patterns (34 patterns)                       │
 │     • Typography pairing (74 font combinations)                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -163,7 +167,7 @@ The flagship feature of v2.0 is the **Design System Generator** - an AI-powered 
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 192 Industry-Specific Reasoning Rules
+### 194 Industry-Specific Reasoning Rules
 
 The reasoning engine includes specialized rules for:
 
@@ -188,13 +192,13 @@ Each rule includes:
 
 ## Features
 
-- **79 Searchable UI Styles (50 active)** - Glassmorphism, Claymorphism, Minimalism, Brutalism, Neumorphism, Bento Grid, Dark Mode, AI-Native UI, and more
-- **192 Color Palettes** - Industry-specific palettes aligned 1:1 with the 192 product types
+- **80 Searchable UI Styles (51 active)** - Glassmorphism, Claymorphism, Minimalism, Brutalism, Neumorphism, Bento Grid, Dark Mode, AI-Native UI, and more
+- **194 Color Palettes** - Industry-specific palettes aligned 1:1 with the 194 product types
 - **74 Font Pairings** - Curated typography combinations with Google Fonts imports
 - **25 Chart Types** - Recommendations for dashboards and analytics
 - **22 Tech Stacks** - React, Next.js, Astro, Vue, Nuxt.js, Nuxt UI, Svelte, SwiftUI, React Native, Flutter, HTML+Tailwind, shadcn/ui, Jetpack Compose, Angular, Laravel, Three.js, JavaFX, WPF, WinUI 3, UWP, Avalonia, Uno Platform
-- **119 UX Guidelines** - Best practices, anti-patterns, accessibility rules, resilient text layout, compact labels, and cancellable interactions
-- **192 Reasoning Rules** - Industry-specific design system generation (NEW in v2.0)
+- **130 UX Guidelines** - Best practices, anti-patterns, accessibility rules, resilient text layout, compact labels, cancellable interactions, and web maps (attribution, map accessibility, choropleths, popups, clustering). See [IME-safe Enter shortcuts](docs/ime-composition.md).
+- **194 Reasoning Rules** - Industry-specific design system generation (NEW in v2.0)
 
 ### Resilient Text and Compact UI
 
@@ -217,15 +221,15 @@ chips, badges, and interrupted micro-interactions:
 
 ### Style Taxonomy
 
-The catalog contains **79 searchable styles** backed by stable IDs and aliases:
+The catalog contains **80 searchable styles** backed by stable IDs and aliases:
 
 | Status | Count | Search behavior |
 |--------|------:|-----------------|
-| Active | 50 | Included in normal recommendations and shown by default in the gallery |
+| Active | 51 | Included in normal recommendations and shown by default in the gallery |
 | Supplemental | 29 | Returned for exact or explicit variant/system intent; available through the gallery status filter |
 | Deprecated | 9 | Excluded from normal ranking; legacy names redirect to a canonical style or landing pattern |
 
-The active set covers 43 general visual families, 2 mobile-specific styles, 3 official platform/design systems, 1 platform material, and 1 core analytics style. Current official systems include Fluent 2, Shopify Polaris, and Adobe Spectrum; Liquid Glass is scoped as an Apple platform material, Material 3 Expressive remains a mobile Material variant, and Spectrum 2 is supplemental. Landing-page structures live in the separate 34-pattern landing dataset rather than competing with visual styles in BM25 ranking.
+The active set covers 43 general visual families, 2 mobile-specific styles, 4 official platform/design systems, 1 platform material, and 1 core analytics style. Current official systems include Fluent 2, Shopify Polaris, Adobe Spectrum, and Apple Native Experience; Liquid Glass is scoped as an Apple platform material, Material 3 Expressive remains a mobile Material variant, and Spectrum 2 is supplemental. Landing-page structures live in the separate 34-pattern landing dataset rather than competing with visual styles in BM25 ranking.
 
 See [`styles.csv`](src/ui-ux-pro-max/data/styles.csv) for the full taxonomy and provenance-aware metadata.
 
@@ -235,7 +239,7 @@ Many users ask about the differences between the open-source and premium version
 
 ### 🟢 Basic Version (This Repository)
 * **Fully Open Source:** Perfect for individual developers, hobbyists, and standard projects.
-* **Core UI/UX Intelligence:** Full access to 79 searchable UI styles (50 active), 192 product types, color palettes, and curated font pairings.
+* **Core UI/UX Intelligence:** Full access to 80 searchable UI styles (51 active), 194 product types, color palettes, and curated font pairings.
 * **Smart Recommendations:** Built-in BM25 search engine for highly accurate design matching.
 * **Cross-Platform Support:** Stack-specific guidelines supporting 22 major frameworks (React, Vue, Tailwind, iOS, Android, etc.).
 * **Design System Generation:** Instantly generate tailored UI rules, patterns, and logic via CLI.
@@ -258,6 +262,8 @@ Install directly in Claude Code with two commands:
 /plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
 /plugin install ui-ux-pro-max@ui-ux-pro-max-skill
 ```
+
+Agent-agnostic clients can use the same repo via `.agents/plugins/marketplace.json` (same `ui-ux-pro-max` plugin and source as the Claude marketplace).
 
 ### Using CLI (Recommended)
 
@@ -289,6 +295,10 @@ uipro init --ai warp        # Warp
 uipro init --ai augment     # Augment
 uipro init --ai codewhale   # CodeWhale
 uipro init --ai zcode       # ZCode
+uipro init --ai kimi        # Kimi Code
+uipro init --ai amazonq     # Amazon Q Developer
+uipro init --ai openclaw    # OpenClaw (.agents/skills/)
+uipro init --ai autoclaw    # AutoClaw (skills/ or ~/.openclaw-autoclaw/skills)
 uipro init --ai universal   # Universal / Agent Standard (.agents/skills/)
 uipro init --ai all         # All assistants
 ```
@@ -301,6 +311,7 @@ The npm package is `ui-ux-pro-max-cli`; it still installs the `uipro` command. O
 uipro init --ai claude --global   # Install to ~/.claude/skills/
 uipro init --ai cursor --global   # Install to ~/.cursor/skills/
 uipro init --ai zcode --global    # Install to ~/.zcode/skills/
+uipro init --ai kimi --global     # Install to ~/.kimi-code/skills/
 uipro init --ai universal --global # Install to ~/.agents/skills/
 ```
 
@@ -333,7 +344,7 @@ If it is missing, install it yourself from [python.org](https://www.python.org/d
 
 ### Skill Mode (Auto-activate)
 
-**Supported:** Claude Code, Cursor, Windsurf, Antigravity, Codex CLI, Continue, Gemini CLI, OpenCode, Qoder, CodeBuddy, Droid (Factory), KiloCode, Warp, Augment, CodeWhale, ZCode
+**Supported:** Claude Code, Cursor, Windsurf, Antigravity, Codex CLI, Continue, Gemini CLI, OpenCode, Qoder, CodeBuddy, Droid (Factory), KiloCode, Warp, Augment, CodeWhale, ZCode, Kimi Code, Amazon Q Developer, OpenClaw, GitHub Copilot
 
 The skill activates automatically when you request UI/UX work. Just chat naturally:
 
@@ -345,7 +356,7 @@ Build a landing page for my SaaS product
 
 ### Workflow Mode (Slash Command)
 
-**Supported:** Kiro, GitHub Copilot, Roo Code, KiloCode
+**Supported:** Kiro, Roo Code, KiloCode
 
 Use the slash command to invoke the skill:
 
@@ -366,6 +377,32 @@ Make a mobile app UI for e-commerce
 
 Build a fintech banking app with dark theme
 ```
+
+### Apply a theme to an existing app
+
+After [installing the skill](#installation), open your app in your AI assistant and use a prompt like this. In Workflow Mode, prefix it with `/ui-ux-pro-max`.
+
+```text
+Use the ui-ux-pro-max skill to retheme my existing React app.
+Target style: Minimalism & Swiss Style.
+First inspect the framework and styling-library versions, routes, components,
+styles, and existing theme tokens. Keep the current component structure,
+behavior, and business logic.
+Reuse and update the existing semantic tokens for colors, typography, spacing,
+radii, shadows, and interaction states; add missing tokens rather than creating
+a parallel theme system. Replace hard-coded styles one component at a time.
+Verify contrast, keyboard focus, responsive layouts, and all supported light/dark
+modes. Summarize changed files and any remaining hard-coded styles.
+```
+
+Replace `Minimalism & Swiss Style` with your preferred [catalog style](src/ui-ux-pro-max/data/styles.csv) or visual direction. Search results provide design guidance; they do not automatically rewrite your app.
+
+**Theme migration checklist:**
+
+- **Audit:** Find theme-related hard-coded values in stylesheets, inline styles, and utilities such as `bg-blue-600` or `text-[#1e293b]`.
+- **Map:** Reuse semantic roles such as `background`, `surface`, `foreground`, `primary`, `border`, and `ring` in the app's existing styling system. Add missing roles using its installed library version's conventions.
+- **Migrate:** Replace hard-coded values with token references in small component batches. Changing tokens alone will not affect styles that do not use them.
+- **Verify:** Check text/UI contrast, hover/focus/disabled states, responsive layouts, and each supported theme after every batch.
 
 ### How It Works
 
@@ -394,11 +431,19 @@ The skill provides stack-specific guidelines for:
 
 Just mention your preferred stack in the prompt, or let it default to HTML + Tailwind.
 
+## Examples
+
+### Before/after: ops dashboard
+
+A plain ops dashboard ([before](https://skill-fixture-before.theroost.dev)) restyled using only the design system UI UX Pro Max generated for it ([after](https://ui-ux-pro-max-after.theroost.dev)), from `search.py "internal operations dashboard" --design-system --density 8 --motion 3 --variance 4`.
+
+*Illustrative, community-contributed example; not an official demo, benchmark, or runtime test of the skill.*
+
 ## Design System Command (Advanced)
 
 For direct access to the design system generator:
 
-> Note: If you installed via Continue, replace `.claude/skills/` with `.continue/skills/` in the commands below. For Droid (Factory), use `.factory/skills/`. For ZCode, use `.zcode/skills/`.
+> Note: If you installed via Continue, replace `.claude/skills/` with `.continue/skills/` in the commands below. For Droid (Factory), use `.factory/skills/`. For ZCode, use `.zcode/skills/`. For Amazon Q Developer, use `.amazonq/skills/` (Amazon Q only auto-loads the rule at `.amazonq/rules/ui-ux-pro-max.md`; the data and scripts under `.amazonq/skills/` are files the rule points to).
 
 ```bash
 # Generate design system with ASCII output
@@ -406,6 +451,10 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "beauty spa wellness" --d
 
 # Generate with Markdown output
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "fintech banking" --design-system -f markdown
+
+# Export design tokens (requires --design-system)
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "fintech dashboard" --design-system --tokens dtcg
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "fintech dashboard" --design-system --tokens css
 
 # Domain-specific search
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "glassmorphism" --domain style
@@ -417,6 +466,10 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "icon button accessible l
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "orphan heading line balance" --domain ux
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "badge chip label wraps to second line" --domain ux
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "rapid chip animation interrupted" --domain ux
+
+# RTL / Arabic, Hebrew, Persian interfaces (style and product domains)
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "dashboard" --domain style --rtl=full
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "fintech" --domain product --rtl=partial
 
 # Stack-specific guidelines
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "form validation" --stack react
@@ -433,6 +486,30 @@ or `Next.js 15`) return only curated legacy rows, labeled by `Status` and
 `Applies To`; when no matching legacy guidance is curated, search returns no
 results instead of mixing framework generations.
 
+### RTL Compatibility (`--rtl`)
+
+Every style and product row carries an `rtl_level` for right-to-left interfaces
+(Arabic, Hebrew, Persian, Urdu):
+
+| Level | Meaning |
+|-------|---------|
+| `full` | Direction-agnostic: the layout survives mirroring unchanged. |
+| `partial` | Mirrors cleanly, but individual components and motion need adjustment. |
+| `caveats` | The style or product encodes reading direction (kinetic typography, LTR timelines, code/terminal surfaces, maps and seat ordering). |
+
+```bash
+# Only styles that mirror without extra work
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "dashboard" --domain style --rtl=full
+
+# All levels, filtered results still tagged with rtl_level
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "mobile" --domain style --rtl
+```
+
+`--rtl` requires an explicit `--domain style` or `--domain product`. The filter
+is applied after ranking but before `-n/--max-results` truncation, so a narrow
+limit never hides a matching row. It is rejected with `--design-system` and
+`--stack`.
+
 ### Persist Design System (Master + Overrides Pattern)
 
 Save your design system to files for **hierarchical retrieval across sessions**:
@@ -443,7 +520,18 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design
 
 # Also create a page-specific override file
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp" --page "dashboard"
+
+# Also write a self-contained preview.html next to MASTER.md
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist --preview -p "MyApp"
+
+# Persist machine-readable tokens next to MASTER.md (tokens are master-level only)
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist --tokens dtcg -p "MyApp"
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist --tokens css -p "MyApp"
 ```
+
+`--preview` requires `--design-system`. With `--persist` it writes `preview.html` next to `MASTER.md`. Without `--persist`, pass `--output-dir` to write `preview.html` there, or omit it to get a temp file whose path is printed. Existing files are skipped unless you also pass `--force`.
+
+`--tokens dtcg` prints W3C Design Tokens JSON; `--tokens css` prints `:root` CSS variables named the same way as `cli/assets/skills/design-system/scripts/generate-tokens.cjs`. Both require `--design-system`. With `--persist`, `tokens.json` is written beside `MASTER.md` (and `tokens.css` when `--tokens css`). `--page` overrides do not emit token files.
 
 This creates a `design-system/` folder structure:
 
@@ -451,6 +539,9 @@ This creates a `design-system/` folder structure:
 design-system/
 └── myapp/                  # One folder per project (slug of -p "MyApp")
     ├── MASTER.md           # Global Source of Truth (colors, typography, spacing, components)
+    ├── preview.html        # Static preview of the generated palette, type, and components
+    ├── tokens.json         # W3C Design Tokens (when persisted with --tokens)
+    ├── tokens.css          # CSS variables (when persisted with --tokens css)
     └── pages/
         └── dashboard.md    # Page-specific overrides (only deviations from Master)
 ```

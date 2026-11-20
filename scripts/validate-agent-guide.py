@@ -25,10 +25,11 @@ DOMAINS = {
 FLAGS = {
     "--domain", "-d", "--stack", "-s", "--max-results", "-n", "--json",
     "--full", "--design-system", "-ds", "--project-name", "-p", "--format",
-    "-f", "--persist", "--page", "--output-dir", "-o", "--force",
-    "--variance", "--motion", "--density",
+    "-f", "--persist", "--page", "--output-dir", "-o", "--force", "--preview",
+    "--variance", "--motion", "--density", "--tokens",
+
 }
-PLATFORM_COUNT = 21
+PLATFORM_COUNT = 25
 GUIDE_REQUIREMENTS = (
     "## Query Contract", "one dominant intent", "Retry once",
     "Do not persist unverified output", "explicit accessibility outcome terms",
